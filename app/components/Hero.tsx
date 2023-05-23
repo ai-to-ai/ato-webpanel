@@ -22,23 +22,23 @@ export default function Hero(): JSX.Element {
                                     <path d="M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z" />
                                 </svg>
                                 <p className="relative bottom-[1px] text-xs font-light tracking-wide text-white sm:text-sm">
-                                    Our Software is Full.{" "}
+                                    Our Software not open.{" "}
                                     <span className="font-semibold">
-                                        Join the Waitlist
+                                        Send message for a middle finger
                                     </span>
                                 </p>
                             </button>
                         </a>
                     </div>
                     <h1 className="w-full text-center text-4xl font-semibold text-black sm:w-3/4 sm:text-6xl">
-                        The only management panel you'll
+                        The market leading panel to bring us to {" "}
                         <span className="bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 text-transparent bg-clip-text">
-                            need to elevate
+                            a much higher level
                         </span>
                     </h1>
-                    <p className="text-md w-full text-center text-white opacity-75 sm:w-1/2 sm:text-lg">
+                    <p className="text-md w-full text-center text-black opacity-75 sm:w-1/2 sm:text-lg">
                         Only Panel is an industry-level dashboard that provides
-                        an automated experience for Management Agencies
+                        multiple automations for your OFM business.
                     </p>
                     <div className="align-center flex w-full flex-row justify-center gap-4">
                         <a href="#">
@@ -63,7 +63,7 @@ export default function Hero(): JSX.Element {
                                     />
                                 </svg>
                                 <p className="relative bottom-[1px] text-sm font-semibold tracking-wide text-black group-hover:text-white">
-                                    Learn More
+                                    Give me more info!
                                 </p>
                             </button>
                         </a>
@@ -85,7 +85,7 @@ export default function Hero(): JSX.Element {
                                     <path d="M497.94 74.17l-60.11-60.11c-18.75-18.75-49.16-18.75-67.91 0l-56.55 56.55 128.02 128.02 56.55-56.55c18.75-18.75 18.75-49.15 0-67.91zm-246.8-20.53c-15.62-15.62-40.94-15.62-56.56 0L75.8 172.43c-6.25 6.25-6.25 16.38 0 22.62l22.63 22.63c6.25 6.25 16.38 6.25 22.63 0l101.82-101.82 22.63 22.62L93.95 290.03A327.038 327.038 0 0 0 .17 485.11l-.03.23c-1.7 15.28 11.21 28.2 26.49 26.51a327.02 327.02 0 0 0 195.34-93.8l196.79-196.79-82.77-82.77-84.85-84.85z" />
                                 </svg>
                                 <p className="relative bottom-[1px] text-sm font-semibold tracking-wide text-white">
-                                    Apply Today
+                                    Login to the panel
                                 </p>
                             </button>
                         </a>
@@ -102,14 +102,36 @@ export default function Hero(): JSX.Element {
                             <path d="M14 6c-.762 0-1.52.02-2.271.062C10.157 6.148 9 7.472 9 8.998v2.24c0 1.519 1.147 2.839 2.71 2.935.214.013.428.024.642.034.2.009.385.09.518.224l2.35 2.35a.75.75 0 001.28-.531v-2.07c1.453-.195 2.5-1.463 2.5-2.915V8.998c0-1.526-1.157-2.85-2.729-2.936A41.645 41.645 0 0014 6z" />
                         </svg>
                         <p className="text-xs font-medium tracking-wide text-[#848488]">
-                            Chatting Service:{" "}
+                            Panel currently:{" "}
                             <span className="ml-1 rounded-md bg-[#8976FF]/[.2] p-1 px-2 font-semibold text-[#8976FF]">
-                                Full
+                                Online
                             </span>
                         </p>
                     </div>
-                    <div className="w-full">
+                    {/* <div className="w-full">
                         <img src="/images/bg_hero.png" alt="" />
+                    </div> */}
+                </div>
+            </div>
+            <div className="flex w-full flex-col mt-5">
+                <div className="flex w-full flex-col items-center justify-center gap-3 px-6 sm:px-0">
+                {/* <div className="flex w-full flex-col items-center justify-center gap-3 bg-gradient-to-b from-[transparent] to-black px-6 sm:px-0"> */}
+                    <div className="flex max-w-[1100px] flex-col items-center justify-center">
+                        <img
+                            alt="Logo-with-stats"
+                            src="/images/landing_stats.png"
+                        />
+
+                        <div className="flex flex-col items-center gap-2 rounded-md py-4">
+                        {/* <div className="flex flex-col items-center gap-2 rounded-md bg-gradient-to-t from-[#0C0B18] to-[transparent] py-4"> */}
+                            <h3 className="text-lg font-bold text-black sm:text-xl">
+                                Efficient way to structure
+                            </h3>
+                            <p className="w-full text-center text-sm font-medium text-black sm:w-3/4 sm:text-lg">
+                            {/* <p className="w-full text-center text-sm font-medium text-[#767C8A] sm:w-3/4 sm:text-lg"> */}
+                                Where all the other companies are doing manual work, we try to get everything structured in one place.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>

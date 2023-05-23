@@ -2,7 +2,7 @@ export default function ChatTeam(): JSX.Element {
     return (
         <>
             <div className="flex w-[90%] sm:w-full flex-col items-center pt-12">
-                <div
+                {/* <div
                     className="relative flex w-full flex-col items-center justify-center gap-3 px-6 sm:top-36 sm:px-0"
                     style={{
                         background:
@@ -34,32 +34,30 @@ export default function ChatTeam(): JSX.Element {
                             />
                         </div>
                     </div>
-                </div>
+                </div> */}
                 <div
-                    className="flex w-full flex-col items-center sm:mt-48"
-                    style={{
-                        background:
-                            "linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(8,8,24,0) 100%)",
-                    }}
+                    className="flex w-full flex-col items-center"
+                    // style={{
+                    //     background:
+                    //         "linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(8,8,24,0) 100%)",
+                    // }}
                 >
-                    <div className="mt-12 flex w-full max-w-[1100px] flex-col items-center justify-center">
+                    <div className="flex w-full max-w-[1100px] flex-col items-center justify-center">
                         <div className="shadow-landing-pink my-2 rounded-full bg-gradient-to-r from-[#6070FB] via-[#FFC289] to-[#FF0F9F] px-0.5 pt-0.5 shadow-md">
                             <div className="flex flex-row items-center justify-center rounded-full bg-[#080818] px-6 py-2 sm:w-full sm:px-5">
                                 <p className="relative bottom-[1px] text-xs font-light tracking-wide text-white sm:text-sm">
-                                    Learn More
+                                    I want to access this panel
                                 </p>
                             </div>
                         </div>
-                        <div className="my-8 grid w-full grid-cols-1 items-start align-center justify-center gap-8 text-center align-middle sm:grid-cols-4 sm:grid-rows-2 row-end-auto">
+                        <div className="my-8 grid w-full grid-cols-1 items-start align-center justify-center gap-8 text-center align-middle sm:grid-cols-4">
                             <div className="flex flex-col items-center align-center justify-center align-center w-full">
                                 <img alt="icon" src="/images/leaderboard.png" />
                                 <h3 className="text-md font-semibold text-white tracking-wide mt-2">
-                                    Customer Insight
+                                    Dating apps
                                 </h3>
                                 <p className="text-xs text-[#C1C1C4] leading-5 w-full font-medium">
-                                    We provide a simple and effective solution
-                                    to consumer analytics. Know your target
-                                    audience to scale your overall revenue.
+                                A well structured panel with multiple dating apps. From here you can start gaining mass trafic for your models.
                                 </p>
                             </div>
                             <div className="flex flex-col items-center align-center justify-center align-center w-full">
@@ -68,34 +66,28 @@ export default function ChatTeam(): JSX.Element {
                                     src="/images/flawless_icon.png"
                                 />
                                 <h3 className="text-md font-semibold text-white tracking-wide mt-2">
-                                    Flawless Chatting Experience
+                                Social Media
                                 </h3>
                                 <p className="text-xs text-[#C1C1C4] leading-5 w-full font-medium">
-                                    Compatible with Mobile &amp; PC, your team
-                                    can use OnlyPanel from anywhere. With many
-                                    unique features to automate your experience.
+                                A well structured panel with multiple social media platforms. From here you can starr gaining mass trafic for your models with 24/7 livestreawms and mother slave systems.
                                 </p>
                             </div>
                             <div className="flex flex-col items-center align-center justify-center align-center w-full">
                                 <img alt="icon" src="/images/promo.png" />
                                 <h3 className="text-md font-semibold text-white tracking-wide mt-2">
-                                    Monetize &amp; Mass DM
+                                AI-Chatting
                                 </h3>
                                 <p className="text-xs text-[#C1C1C4] leading-5 w-full font-medium">
-                                    Automate sales funnel and mass promote to
-                                    monetize your messages. Select among your
-                                    custom list of target audience.
+                                Forgot working with chatters from 3th world countries and start with implementing AI chatting for your models.
                                 </p>
                             </div>
                             <div className="flex flex-col items-center align-center justify-center align-center w-full">
                                 <img alt="icon" src="/images/safe.svg" />
                                 <h3 className="text-md font-semibold text-white tracking-wide mt-2">
-                                    Secure Vault
+                                Chatting boosters
                                 </h3>
                                 <p className="text-xs text-[#C1C1C4] leading-5 w-full font-medium">
-                                    Store thousands of pictures and videos, and
-                                    securely monetize content with ease.
-                                    OnlyPanel is integrated with OF Vault.
+                                A chat ratio of 1:5 is not htere anymore. boost your chatting ratio with systems. Clone voices for sending memos and send live pictures without being there.
                                 </p>
                             </div>
                         </div>

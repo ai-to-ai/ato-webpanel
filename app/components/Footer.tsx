@@ -7,8 +7,8 @@ export default function Footer(): JSX.Element {
                         <a href="/">
                             <img
                                 alt="OnlyPanel Logo"
-                                src="/images/logo-footer.svg"
-                                className="transition-all ease-in-out hover:opacity-80 hover:ease-in focus:opacity-60 focus:ease-out"
+                                src="/images/logo.png"
+                                className="h-10 transition-all ease-in-out hover:opacity-80 hover:ease-in focus:opacity-60 focus:ease-out"
                             />
                         </a>
                         <p className="text-xs leading-5 tracking-wide text-[#84848B]">

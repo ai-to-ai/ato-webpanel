@@ -2,11 +2,11 @@ export default function ConsumerAnalytics(): JSX.Element {
     return (
         <>
             <div
-                className="flex w-[90%] sm:w-full flex-col items-center bg-white pt-24"
+                className="flex w-[90%] sm:w-full flex-col items-center bg-white"
                 id="analytics"
             >
                 <div className="align-center flex w-full max-w-[1100px] flex-col items-center justify-center">
-                    <div className="sm:w-58 sm:h-58 flex h-10 w-10 flex-col">
+                    {/* <div className="sm:w-58 sm:h-58 flex h-10 w-10 flex-col">
                         <img
                             alt="creators-icon"
                             src="/images/reports-chart.svg"
@@ -24,7 +24,7 @@ export default function ConsumerAnalytics(): JSX.Element {
                             alt="image-of-dashboard"
                             src="/images/bg_analytics.png"
                         />
-                    </div>
+                    </div> */}
                     <div className="mt-8 hidden items-center justify-center sm:flex">
                         <img alt="photos" src="/images/lines.png" />
                     </div>
@@ -37,8 +37,8 @@ export default function ConsumerAnalytics(): JSX.Element {
                     <div className="flex w-full flex-col items-center justify-center">
                         <div className="shadow-landing-pink my-2 rounded-full bg-gradient-to-r from-[#6070FB] via-[#FFC289] to-[#FF0F9F] px-0.5 pt-0.5 shadow-md">
                             <div className="flex flex-row items-center justify-center rounded-full bg-[#080818] px-6 py-2 sm:w-full sm:px-5">
-                                <p className="relative bottom-[1px] text-xs font-light tracking-wide text-white sm:text-sm">
-                                    Analytic Features
+                                <p className="uppercase relative bottom-[1px] text-xs font-light tracking-wide text-white sm:text-sm">
+                                    Editable
                                 </p>
                             </div>
                         </div>
@@ -50,11 +50,10 @@ export default function ConsumerAnalytics(): JSX.Element {
                                     className="h-[32px] w-[32px]"
                                 />
                                 <h3 className="text-md font-semibold text-black tracking-wide mt-2">
-                                    Account Activity
+                                    Edit Layer
                                 </h3>
                                 <p className="text-xs text-black text-opacity-50 leading-5 w-full font-medium">
-                                    Keep track of your team's progression with
-                                    our live activity tracker
+                                    I want to edit this later.
                                 </p>
                             </div>
                             <div className="flex flex-col items-center align-center justify-center align-center w-full">
@@ -64,11 +63,10 @@ export default function ConsumerAnalytics(): JSX.Element {
                                     className="h-[32px] w-[32px]"
                                 />
                                 <h3 className="text-md font-semibold text-black tracking-wide mt-2">
-                                    Consumer Spending Report
+                                Edit Layer
                                 </h3>
                                 <p className="text-xs text-black text-opacity-50 leading-5 w-full font-medium">
-                                    Analyze spending reports by individual
-                                    customers and categorize them in Groups
+                                I want to edit this later.
                                 </p>
                             </div>
                             <div className="flex flex-col items-center align-center justify-center align-center w-full">
@@ -78,11 +76,10 @@ export default function ConsumerAnalytics(): JSX.Element {
                                     className="h-[32px] w-[32px]"
                                 />
                                 <h3 className="text-md font-semibold text-black tracking-wide mt-2">
-                                    Automatic Grouping
+                                    Edit Layer
                                 </h3>
                                 <p className="text-xs text-black text-opacity-50 leading-5 w-full font-medium">
-                                    Configure your spending groups and let us
-                                    categorize your fans
+                                I want to edit this later.
                                 </p>
                             </div>
                             <div className="flex flex-col items-center align-center justify-center align-center w-full">
@@ -92,11 +89,10 @@ export default function ConsumerAnalytics(): JSX.Element {
                                     className="h-[32px] w-[32px]"
                                 />
                                 <h3 className="text-md font-semibold text-black tracking-wide mt-2">
-                                    Statement History
+                                    Edit Layer
                                 </h3>
                                 <p className="text-xs text-black text-opacity-50 leading-5 w-full font-medium">
-                                    View statements on creator accounts, export
-                                    and keep for tax purposes
+                                I want to edit this later.
                                 </p>
                             </div>
                         </div>

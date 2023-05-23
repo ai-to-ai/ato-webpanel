@@ -4,20 +4,21 @@ export default function Header(): JSX.Element {
     return (
         <>
             <div className="m-auto flex w-full flex-col ">
-                <div className="border-[#a5907f] w-full border-b py-4 ">
-                    <div className="m-auto flex w-[90%] flex-row sm:grid sm:w-full sm:grid-cols-3">
+                <div className="w-full py-4 ">
+                    <div className="m-auto flex w-[90%] flex-row md:flex md:flex-grow sm:grid sm:w-full sm:grid-cols-3">
                         <div className="flex w-full justify-start">
                             <a
-                                className="cursor-pointer opacity-100 transition-all ease-in-out hover:opacity-80 hover:ease-in focus:opacity-60 focus:ease-out"
+                                className="uppercase font-black text-3xl cursor-pointer opacity-100 transition-all ease-in-out hover:opacity-80 hover:ease-in focus:opacity-60 focus:ease-out"
                                 href="/"
                             >
-                                <Image
+                                ato-webpanel
+                                {/* <Image
                                     alt="logo-image"
                                     src="/images/logo.svg"
                                     height={100}
                                     width={100}
                                     className="w-[160px]"
-                                />
+                                /> */}
                             </a>
                         </div>
                         <div className="align-center flex justify-end sm:hidden">
@@ -37,7 +38,7 @@ export default function Header(): JSX.Element {
                                 </svg>
                             </button>
                         </div>
-                        <ul className="hidden sm:flex sm:flex-row">
+                        {/* <ul className="hidden sm:flex sm:flex-row">
                             <li className="flex w-full items-center justify-center">
                                 <a
                                     className="text-black cursor-pointer text-sm font-semibold opacity-100 transition-all ease-in-out hover:opacity-80 hover:ease-in focus:opacity-60 focus:ease-out"
@@ -70,10 +71,10 @@ export default function Header(): JSX.Element {
                                     Security
                                 </a>
                             </li>
-                        </ul>
+                        </ul> */}
                         <div className="hidden sm:flex sm:justify-end sm:self-center">
                             <a href="/login">
-                                <button className="flex w-auto cursor-pointer flex-row items-center justify-between rounded-md border border-[#887EFF] bg-gradient-to-b from-[#7684ff] to-[#5a57f0] p-2 opacity-100 transition-all ease-in-out hover:opacity-80 hover:ease-in focus:opacity-60 focus:ease-out">
+                                <button className="flex w-[150px] cursor-pointer flex-row items-center justify-evenly rounded-md border border-[#887EFF] bg-gradient-to-b from-[#7684ff] to-[#5a57f0] p-2 opacity-100 transition-all ease-in-out hover:opacity-80 hover:ease-in focus:opacity-60 focus:ease-out">
                                     <Image
                                         alt="key icon"
                                         src="/images/key.svg"
@@ -82,7 +83,7 @@ export default function Header(): JSX.Element {
                                         className="h-[18px] w-[18px]"
                                     />
                                     <p className="text-xs font-semibold tracking-wide text-white">
-                                        Sign In
+                                        Log in to the panel
                                     </p>
                                 </button>
                             </a>
