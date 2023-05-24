@@ -1,3 +1,4 @@
+import Image from 'next/image'
 export default function Footer(): JSX.Element {
     return (
         <>
@@ -5,7 +6,7 @@ export default function Footer(): JSX.Element {
                 <div className="align-start m-auto grid w-full max-w-[1100px] grid-cols-1 justify-start gap-4 sm:grid-cols-4">
                     <div className="align-center flex w-full flex-col items-center gap-4 text-center sm:items-start sm:text-start">
                         <a href="/">
-                            <img
+                            <Image
                                 alt="OnlyPanel Logo"
                                 src="/images/logo.png"
                                 className="h-10 transition-all ease-in-out hover:opacity-80 hover:ease-in focus:opacity-60 focus:ease-out"

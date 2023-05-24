@@ -1,3 +1,4 @@
+import Image from 'next/image'
 export default function Hero(): JSX.Element {
     return (
         <>
@@ -111,9 +112,9 @@ export default function Hero(): JSX.Element {
                 <div className="flex w-full flex-col items-center justify-center gap-3 px-6 sm:px-0">
                 {/* <div className="flex w-full flex-col items-center justify-center gap-3 bg-gradient-to-b from-[transparent] to-black px-6 sm:px-0"> */}
                     <div className="flex max-w-[1100px] flex-col items-center justify-center">
-                        <img
+                        <Image
                             alt="Logo-with-stats"
-                            src="/images/landing_state.png"
+                            src="/images/landing_state.jpeg"
                         />
 
                         <div className="flex flex-col items-center gap-2 rounded-md py-4">
@@ -144,7 +145,7 @@ export default function Hero(): JSX.Element {
                         </div>
                         <div className="my-8 grid w-full grid-cols-1 items-start align-center justify-center gap-8 text-center align-middle sm:grid-cols-4">
                             <div className="flex flex-col items-center align-center justify-center align-center w-full">
-                                <img alt="icon" src="/images/leaderboard.png" className="filter grayscale"/>
+                                <Image alt="icon" src="/images/leaderboard.png" className="filter grayscale"/>
                                 <h3 className="text-md font-semibold text-black tracking-wide mt-2">
                                     Dating apps
                                 </h3>
@@ -153,7 +154,7 @@ export default function Hero(): JSX.Element {
                                 </p>
                             </div>
                             <div className="flex flex-col items-center align-center justify-center align-center w-full">
-                                <img
+                                <Image
                                     alt="icon"
                                     src="/images/flawless_icon.png"
                                     className="grayscale filter"
@@ -166,7 +167,7 @@ export default function Hero(): JSX.Element {
                                 </p>
                             </div>
                             <div className="flex flex-col items-center align-center justify-center align-center w-full">
-                                <img alt="icon" src="/images/promo.png" className="filter grayscale"/>
+                                <Image alt="icon" src="/images/promo.png" className="filter grayscale"/>
                                 <h3 className="text-md font-semibold text-black tracking-wide mt-2">
                                 AI-Chatting
                                 </h3>
@@ -175,7 +176,7 @@ export default function Hero(): JSX.Element {
                                 </p>
                             </div>
                             <div className="flex flex-col items-center align-center justify-center align-center w-full">
-                                <img alt="icon" src="/images/safe.svg" className="filter grayscale"/>
+                                <Image alt="icon" src="/images/safe.svg" className="filter grayscale"/>
                                 <h3 className="text-md font-semibold text-black tracking-wide mt-2">
                                 Chatting boosters
                                 </h3>
@@ -194,10 +195,10 @@ export default function Hero(): JSX.Element {
             >
                 <div className="align-center flex w-full max-w-[1100px] flex-col items-center justify-center">
                     <div className="mt-8 hidden items-center justify-center sm:flex">
-                        <img alt="photos" src="/images/lines.png" />
+                        <Image alt="photos" src="/images/lines.png" />
                     </div>
                     <div className="relative mt-8 items-center justify-center sm:hidden">
-                        <img
+                        <Image
                             alt="photos"
                             src="/images/mobile_landing_lines.png"
                         />
@@ -212,7 +213,7 @@ export default function Hero(): JSX.Element {
                         </div>
                         <div className="my-8 grid w-full grid-cols-1 items-start align-center justify-center gap-8 text-center align-middle sm:grid-cols-4 sm:grid-rows-2 row-end-auto">
                             <div className="flex flex-col items-center align-center justify-center align-center w-full">
-                                <img
+                                <Image
                                     alt="icon"
                                     src="/images/crosshair.svg"
                                     className="h-[32px] w-[32px] filter grayscale"
@@ -225,7 +226,7 @@ export default function Hero(): JSX.Element {
                                 </p>
                             </div>
                             <div className="flex flex-col items-center align-center justify-center align-center w-full">
-                                <img
+                                <Image
                                     alt="icon"
                                     src="/images/dots.svg"
                                     className="h-[32px] w-[32px]  filter grayscale"
@@ -238,7 +239,7 @@ export default function Hero(): JSX.Element {
                                 </p>
                             </div>
                             <div className="flex flex-col items-center align-center justify-center align-center w-full">
-                                <img
+                                <Image
                                     alt="icon"
                                     src="/images/pie-chart.svg"
                                     className="h-[32px] w-[32px]  filter grayscale"
@@ -251,7 +252,7 @@ export default function Hero(): JSX.Element {
                                 </p>
                             </div>
                             <div className="flex flex-col items-center align-center justify-center align-center w-full">
-                                <img
+                                <Image
                                     alt="icon"
                                     src="/images/presentation.svg"
                                     className="h-[32px] w-[32px]  filter grayscale"
@@ -272,7 +273,7 @@ export default function Hero(): JSX.Element {
                 <div className="align-center flex w-full sm:max-w-[1100px] flex-col items-center justify-center text-center">
                     <div className="relative align-center flex h-full w-full flex-col items-center justify-center rounded-t-md bg-gradient-to-br from-[#12121A] to-[#09090C] border border-[#19191F]">
                         <div className="absolute top-5 right-5">
-                            <img src="/images/logo.png" className="z-[2]" alt="logo" width="100" height="100"/>
+                            <Image src="/images/logo.png" className="z-[2]" alt="logo" width="100" height="100"/>
                         </div>
                         <div className="flex h-full w-full flex-col bg-white bg-right-top bg-no-repeat sm:bg-[length:256px]">
                             <div className="align-center flex h-full w-full flex-col items-center justify-center px-20 py-12 sm:py-36">
