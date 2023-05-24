@@ -19,7 +19,7 @@ export default function Hero(): JSX.Element {
                                     </g>
                                 </svg>
                                 <p className="relative bottom-[1px] text-xs font-light tracking-wide text-white sm:text-sm">
-                                   ready to skyrocket your agency?
+                                ready to skyrocket your agency?🚀 
                                 </p>
                             </button>
                         </a>
@@ -31,7 +31,7 @@ export default function Hero(): JSX.Element {
                         </span>
                     </h1>
                     <p className="text-md w-full text-center text-black opacity-75 sm:w-1/2 sm:text-lg">
-                        Only Panel is an industry-level dashboard that provides
+                        ATO-WEBPANEL is an industry-level dashboard that provides
                         multiple automations for your OFM business.
                     </p>
                     <div className="align-center flex w-full flex-row justify-center gap-4">
@@ -115,6 +115,8 @@ export default function Hero(): JSX.Element {
                         <Image
                             alt="Logo-with-stats"
                             src="/images/landing_state.jpeg"
+                            width={700}
+                            height={700}
                         />
 
                         <div className="flex flex-col items-center gap-2 rounded-md py-4">
@@ -124,7 +126,7 @@ export default function Hero(): JSX.Element {
                             </h3>
                             <p className="w-full text-center text-sm font-medium text-black sm:w-3/4 sm:text-lg">
                             {/* <p className="w-full text-center text-sm font-medium text-[#767C8A] sm:w-3/4 sm:text-lg"> */}
-                                Where all the other companies are doing manual work, we try to get everything structured in one place.
+                            Where all the other companies are doing manual work, we have everything automated in one place.
                             </p>
                         </div>
                     </div>
@@ -145,12 +147,17 @@ export default function Hero(): JSX.Element {
                         </div>
                         <div className="my-8 grid w-full grid-cols-1 items-start align-center justify-center gap-8 text-center align-middle sm:grid-cols-4">
                             <div className="flex flex-col items-center align-center justify-center align-center w-full">
-                                <Image alt="icon" src="/images/leaderboard.png" className="filter grayscale"/>
+                                <Image 
+                                    alt="icon"  
+                                    src="/images/leaderboard.png" 
+                                    className="filter grayscale"
+                                    height={30}
+                                    width={30}/>
                                 <h3 className="text-md font-semibold text-black tracking-wide mt-2">
                                     Dating apps
                                 </h3>
                                 <p className="text-xs text-black leading-5 w-full font-medium">
-                                A well structured panel with multiple dating apps. From here you can start gaining mass trafic for your models.
+                                A well structured panel with multiple dating apps. From here you can start gaining mass traffic for your models.
                                 </p>
                             </div>
                             <div className="flex flex-col items-center align-center justify-center align-center w-full">
@@ -158,25 +165,36 @@ export default function Hero(): JSX.Element {
                                     alt="icon"
                                     src="/images/flawless_icon.png"
                                     className="grayscale filter"
-                                />
+                                    height={30}
+                                    width={30}/>
                                 <h3 className="text-md font-semibold text-black tracking-wide mt-2">
                                 Social Media
                                 </h3>
                                 <p className="text-xs text-black leading-5 w-full font-medium">
-                                A well structured panel with multiple social media platforms. From here you can starr gaining mass trafic for your models with 24/7 livestreawms and mother slave systems.
+                                A well structured panel with multiple social media platforms. From here you can start gaining mass traffic for your models with 24/7 livestreams and mother slave systems.
                                 </p>
                             </div>
                             <div className="flex flex-col items-center align-center justify-center align-center w-full">
-                                <Image alt="icon" src="/images/promo.png" className="filter grayscale"/>
+                                <Image 
+                                    alt="icon" 
+                                    src="/images/promo.png" 
+                                    className="filter grayscale"
+                                    height={30}
+                                    width={30}/>
                                 <h3 className="text-md font-semibold text-black tracking-wide mt-2">
                                 AI-Chatting
                                 </h3>
                                 <p className="text-xs text-black leading-5 w-full font-medium">
-                                Forgot working with chatters from 3th world countries and start with implementing AI chatting for your models.
+                                Forget working with chatters from 3th world countries and start with implementing AI chatting for your models.
                                 </p>
                             </div>
                             <div className="flex flex-col items-center align-center justify-center align-center w-full">
-                                <Image alt="icon" src="/images/safe.svg" className="filter grayscale"/>
+                                <Image 
+                                    alt="icon" 
+                                    src="/images/safe.svg" 
+                                    className="filter grayscale"
+                                    height={30}
+                                    width={30}/>
                                 <h3 className="text-md font-semibold text-black tracking-wide mt-2">
                                 Chatting boosters
                                 </h3>
@@ -195,12 +213,18 @@ export default function Hero(): JSX.Element {
             >
                 <div className="align-center flex w-full max-w-[1100px] flex-col items-center justify-center">
                     <div className="mt-8 hidden items-center justify-center sm:flex">
-                        <Image alt="photos" src="/images/lines.png" />
+                        <Image 
+                            alt="photos" 
+                            src="/images/lines.png"
+                            width="50"
+                            height="50" />
                     </div>
                     <div className="relative mt-8 items-center justify-center sm:hidden">
                         <Image
                             alt="photos"
                             src="/images/mobile_landing_lines.png"
+                            width="50"
+                            height="50"
                         />
                     </div>
                     <div className="flex w-full flex-col items-center justify-center">
@@ -217,6 +241,8 @@ export default function Hero(): JSX.Element {
                                     alt="icon"
                                     src="/images/crosshair.svg"
                                     className="h-[32px] w-[32px] filter grayscale"
+                                    width="50"
+                                    height="50"
                                 />
                                 <h3 className="text-md font-semibold text-black tracking-wide mt-2">
                                 Account Activity
@@ -230,12 +256,14 @@ export default function Hero(): JSX.Element {
                                     alt="icon"
                                     src="/images/dots.svg"
                                     className="h-[32px] w-[32px]  filter grayscale"
+                                    width="50"
+                                    height="50"
                                 />
                                 <h3 className="text-md font-semibold text-black tracking-wide mt-2">
                                 All-In-One
                                 </h3>
                                 <p className="text-xs text-black leading-5 w-full font-medium">
-                                The only all-in-one panel in the world wich you can use to run traffic, convert the traffic and make money from the traffic.
+                                The only all-in-one panel in the world witch you can use to run traffic, convert the traffic and make money from the traffic.
                                 </p>
                             </div>
                             <div className="flex flex-col items-center align-center justify-center align-center w-full">
@@ -243,6 +271,8 @@ export default function Hero(): JSX.Element {
                                     alt="icon"
                                     src="/images/pie-chart.svg"
                                     className="h-[32px] w-[32px]  filter grayscale"
+                                    width="50"
+                                    height="50"
                                 />
                                 <h3 className="text-md font-semibold text-black tracking-wide mt-2">
                                 Improve
@@ -256,6 +286,8 @@ export default function Hero(): JSX.Element {
                                     alt="icon"
                                     src="/images/presentation.svg"
                                     className="h-[32px] w-[32px]  filter grayscale"
+                                    width="50"
+                                    height="50"
                                 />
                                 <h3 className="text-md font-semibold text-black tracking-wide mt-2">
                                 Upcoming growth 
@@ -273,7 +305,12 @@ export default function Hero(): JSX.Element {
                 <div className="align-center flex w-full sm:max-w-[1100px] flex-col items-center justify-center text-center">
                     <div className="relative align-center flex h-full w-full flex-col items-center justify-center rounded-t-md bg-gradient-to-br from-[#12121A] to-[#09090C] border border-[#19191F]">
                         <div className="absolute top-5 right-5">
-                            <Image src="/images/logo.png" className="z-[2]" alt="logo" width="100" height="100"/>
+                            <Image 
+                                src="/images/logo.png"
+                                className="z-[2]" 
+                                alt="logo" 
+                                width="100" 
+                                height="100"/>
                         </div>
                         <div className="flex h-full w-full flex-col bg-white bg-right-top bg-no-repeat sm:bg-[length:256px]">
                             <div className="align-center flex h-full w-full flex-col items-center justify-center px-20 py-12 sm:py-36">

@@ -3,23 +3,22 @@ export default function Footer(): JSX.Element {
     return (
         <>
             <div className="align-center flex w-full flex-col items-center border-t border-[#a5907f] bg-white py-16 px-12 sm:flex-row sm:justify-between mt-5">
-                <div className="align-start m-auto grid w-full max-w-[1100px] grid-cols-1 justify-start gap-4 sm:grid-cols-4">
+                <div className="align-start m-auto grid w-full max-w-[1100px] grid-cols-1 justify-start gap-4 sm:grid-cols-2">
                     <div className="align-center flex w-full flex-col items-center gap-4 text-center sm:items-start sm:text-start">
                         <a href="/">
                             <Image
                                 alt="OnlyPanel Logo"
                                 src="/images/logo.png"
-                                className="h-10 transition-all ease-in-out hover:opacity-80 hover:ease-in focus:opacity-60 focus:ease-out"
+                                width={60}
+                                height={60}
+                                className="h-20 w-20 transition-all ease-in-out hover:opacity-80 hover:ease-in focus:opacity-60 focus:ease-out"
                             />
                         </a>
                         <p className="text-xs leading-5 tracking-wide text-[#84848B]">
-                            © 2023. All rights reserved. OnlyFans is a
-                            registered trademark of Fenix International Limited.
-                            We declare no affiliation, sponsorship, nor any
-                            partnerships with Fenix International Limited.
+                            © 2023. All rights reserved. ATO is not is not responsible for possible damages..
                         </p>
                     </div>
-                    <div className="align-center flex w-full flex-col items-center gap-2">
+                    {/* <div className="align-center flex w-full flex-col items-center gap-2">
                         <p className="text-sm font-medium tracking-wide text-white">
                             Resources
                         </p>
@@ -53,7 +52,7 @@ export default function Footer(): JSX.Element {
                                 Privacy Policy
                             </p>
                         </a>
-                    </div>
+                    </div> */}
                     <div className="align-center flex w-full flex-row items-center justify-center gap-4 sm:items-start sm:justify-end">
                         <a href="#">
                         <svg className="h-16 w-16" viewBox="0 0 1000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg">
