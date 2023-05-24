@@ -3,22 +3,23 @@ import Image from "next/image";
 export default function Header(): JSX.Element {
     return (
         <>
-            <div className="m-auto flex w-full flex-col ">
-                <div className="w-full py-4 ">
-                    <div className="m-auto flex w-[90%] flex-row md:flex md:flex-grow sm:grid sm:w-full sm:grid-cols-3">
+            <div className="m-auto flex w-full flex-col border-b-2 border-black">
+                <div className="w-full">
+                    <div className="m-auto flex w-full flex-row md:flex md:flex-grow sm:grid sm:w-full sm:grid-cols-3">
                         <div className="flex w-full justify-start">
                             <a
-                                className="uppercase font-black text-3xl cursor-pointer opacity-100 transition-all ease-in-out hover:opacity-80 hover:ease-in focus:opacity-60 focus:ease-out"
+                                className="flex items-center uppercase font-black text-3xl cursor-pointer opacity-100 transition-all ease-in-out hover:opacity-80 hover:ease-in focus:opacity-60 focus:ease-out"
                                 href="/"
                             >
-                                ato-webpanel
-                                {/* <Image
+                                    <Image
                                     alt="logo-image"
-                                    src="/images/logo.svg"
-                                    height={100}
-                                    width={100}
-                                    className="w-[160px]"
-                                /> */}
+                                    src="/images/logo.png"
+                                    height={60}
+                                    width={60}
+                                    className="w-[60px]"
+                                />
+                                ato
+
                             </a>
                         </div>
                         <div className="align-center flex justify-end sm:hidden">
@@ -74,7 +75,7 @@ export default function Header(): JSX.Element {
                         </ul> */}
                         <div className="hidden sm:flex sm:justify-end sm:self-center">
                             <a href="/login">
-                                <button className="flex w-[150px] cursor-pointer flex-row items-center justify-evenly rounded-md border border-[#887EFF] bg-gradient-to-b from-[#7684ff] to-[#5a57f0] p-2 opacity-100 transition-all ease-in-out hover:opacity-80 hover:ease-in focus:opacity-60 focus:ease-out">
+                                <button className="flex w-[150px] cursor-pointer flex-row items-center justify-evenly rounded-md border border-[#82774A] bg-[#82774A] p-2 opacity-100 transition-all ease-in-out hover:opacity-80 hover:ease-in focus:opacity-60 focus:ease-out">
                                     <Image
                                         alt="key icon"
                                         src="/images/key.svg"
