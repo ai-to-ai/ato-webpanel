@@ -6,7 +6,7 @@ export default function Hero(): JSX.Element {
             <div className="relative z-[1]">
                 <div className="m-auto mt-8 flex w-full flex-col items-center justify-center gap-6 sm:w-full">
                     <div className="from-landing-pink via-landing-cream to-landing-blue shadow-landing-pink cursor-pointer rounded-full bg-gradient-to-r px-0.5 pt-0.5 opacity-100 shadow-md transition-all ease-in-out hover:opacity-80 hover:ease-in focus:opacity-60 focus:ease-out">
-                        <a href="#">
+                        <a href="https://t.me/atopanell">
                             <button
                                 className="flex flex-row items-center justify-center rounded-full bg-[#82774A] px-6 py-2 hover:cursor-pointer hover:opacity-60 sm:w-full sm:px-5"
                                 type="button"
@@ -301,13 +301,13 @@ export default function Hero(): JSX.Element {
                 </div>
             </div>
         {/* Join the WaitList */}
-            <div className="flex w-[90%] sm:w-full flex-col items-center bg-gradient-to-b bg-white to-[#080818] sm:px-6 rounded-t-md">
+            <div className="flex w-full sm:w-full flex-col items-center bg-gradient-to-b bg-white to-[#080818] sm:px-6 rounded-t-md">
                 <div className="align-center flex w-full sm:max-w-[1100px] flex-col items-center justify-center text-center">
                     <div className="relative align-center flex h-full w-full flex-col items-center justify-center rounded-t-md bg-gradient-to-br from-[#12121A] to-[#09090C] border border-[#19191F]">
-                        <div className="absolute top-5 right-5">
+                        <div className="absolute top-5 right-5 sm:invisible">
                             <Image 
                                 src="/images/logo.png"
-                                className="z-[2]" 
+                                className="z-[2] " 
                                 alt="logo" 
                                 width="100" 
                                 height="100"/>
