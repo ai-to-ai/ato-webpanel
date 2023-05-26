@@ -216,11 +216,11 @@ export default function Hero(): JSX.Element {
             >
                 <div className="align-center flex w-full max-w-[1100px] flex-col items-center justify-center">
                     <div className="mt-8 hidden items-center justify-center sm:flex">
-                        <Image 
+                        <img 
                             alt="photos" 
                             src="/images/lines.jpeg"
                             width={900}
-                            height={100} />
+                            height={40} />
                     </div>
                     <div className="relative mt-8 items-center justify-center sm:hidden">
                         <Image
