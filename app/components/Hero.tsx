@@ -6,7 +6,7 @@ export default function Hero(): JSX.Element {
             <div className="relative z-[1]">
                 <div className="m-auto mt-8 flex w-full flex-col items-center justify-center gap-6 sm:w-full">
                     <div className="from-landing-pink via-landing-cream to-landing-blue shadow-landing-pink cursor-pointer rounded-full bg-gradient-to-r px-0.5 pt-0.5 opacity-100 shadow-md transition-all ease-in-out hover:opacity-80 hover:ease-in focus:opacity-60 focus:ease-out">
-                        <a href="https://t.me/atopanell">
+                        <a href="https://t.me/atosolutions">
                             <button
                                 className="flex flex-row items-center justify-center rounded-full bg-[#82774A] px-6 py-2 hover:cursor-pointer hover:opacity-60 sm:w-full sm:px-5"
                                 type="button"
@@ -35,7 +35,7 @@ export default function Hero(): JSX.Element {
                         multiple automations for your OFM business.
                     </p>
                     <div className="align-center flex w-full flex-row justify-center gap-4">
-                        <a href="https://t.me/atopanell">
+                        <a href="https://t.me/atosolutions">
                             <button
                                 className="flex cursor-pointer flex-row items-center justify-center rounded-md border border-[#82774A] bg-[#82774A] p-4 py-2 opacity-100 transition-all ease-in-out hover:cursor-pointer text-white hover:ease-in focus:ease-out group"
                                 type="button"
@@ -61,7 +61,7 @@ export default function Hero(): JSX.Element {
                                 </p>
                             </button>
                         </a>
-                        <a href="https://t.me/atopanell">
+                        <a href="https://t.me/atosolutions">
                             <button
                                 className="flex w-auto cursor-pointer flex-row items-center bg-[#82774A] justify-between rounded-md border border-[#82774A] px-4 py-2 opacity-100 transition-all ease-in-out hover:cursor-pointer hover:opacity-60 hover:opacity-80 hover:ease-in focus:opacity-60 focus:ease-out"
                                 type="button"
@@ -140,7 +140,7 @@ export default function Hero(): JSX.Element {
                     <div className="flex w-full max-w-[1100px] flex-col items-center justify-center">
                         <div className="shadow-landing-pink my-2 rounded-full  px-0.5 pt-0.5 shadow-md">
                             <div className="flex flex-row items-center justify-center rounded-full bg-[#82774A] px-6 py-2 sm:w-full sm:px-5">
-                                <a href="https://t.me/atopanell">
+                                <a href="https://t.me/atosolutions">
                                     <p className="relative bottom-[1px] text-xs font-light tracking-wide text-white sm:text-sm">
                                         I want to access this panel
                                     </p>
@@ -218,14 +218,14 @@ export default function Hero(): JSX.Element {
                     <div className="mt-8 hidden items-center justify-center sm:flex">
                         <Image 
                             alt="photos" 
-                            src="/images/lines.png"
+                            src="/images/lines.jpeg"
                             width={1100}
                             height={100} />
                     </div>
                     <div className="relative mt-8 items-center justify-center sm:hidden">
                         <Image
                             alt="photos"
-                            src="/images/mobile_landing_lines.png"
+                            src="/images/mobile_landing_lines.jpeg"
                             width={300}
                             height={100}
                         />
@@ -233,7 +233,7 @@ export default function Hero(): JSX.Element {
                     <div className="flex w-full flex-col items-center justify-center">
                         <div className="shadow-landing-pink my-2 rounded-full bg-[#82774A] px-0.5 pt-0.5 shadow-md">
                             <div className="flex flex-row items-center justify-center rounded-full bg-[#82774A] px-6 py-2 sm:w-full sm:px-5">
-                                <a href="https://t.me/atopanell">
+                                <a href="https://t.me/atosolutions">
                                     <p className="uppercase relative bottom-[1px] text-xs font-light tracking-wide text-white sm:text-sm">
                                     Login to my panel
                                     </p>
@@ -336,7 +336,7 @@ export default function Hero(): JSX.Element {
                                     time.
                                 </h3>
                                 <div className="mt-4 flex w-full flex-col items-center justify-center ">
-                                    <a href="https://t.me/atopanell">
+                                    <a href="https://t.me/atosolutions">
                                         <button
                                             className="flex flex-row items-center justify-center rounded-md border-[#82774A] bg-gradient-to-b from-[#82774A] to-[#D9D9D9] px-10 py-2 sm:w-full sm:px-28 opacity-100 transition-all ease-in-out hover:opacity-80 hover:ease-in focus:opacity-60 focus:ease-out"
                                             type="button"

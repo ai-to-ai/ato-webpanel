@@ -54,7 +54,7 @@ export default function Footer(): JSX.Element {
                         </a>
                     </div> */}
                     <div className="align-center flex w-full flex-row items-center justify-center gap-4 sm:items-start sm:justify-end">
-                        <a href="https://t.me/atopanell">
+                        <a href="https://t.me/atosolutions">
                         <svg className="h-16 w-16" viewBox="0 0 1000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg">
                                     <g id="Artboard" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
                                         {/* <circle id="Oval" fill="currentColor" cx="500" cy="500" r="500"></circle> */}
