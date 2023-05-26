@@ -4,7 +4,7 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-    title: "OnlyPanel | Scale your talent to the next level",
+    title: "ATO Webpanel | Scale your talent to the next level",
 };
 
 export default function RootLayout({
