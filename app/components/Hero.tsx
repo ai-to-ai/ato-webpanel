@@ -219,7 +219,7 @@ export default function Hero(): JSX.Element {
                         <Image 
                             alt="photos" 
                             src="/images/lines.jpeg"
-                            width={1100}
+                            width={900}
                             height={100} />
                     </div>
                     <div className="relative mt-8 items-center justify-center sm:hidden">
