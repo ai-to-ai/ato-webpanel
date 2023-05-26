@@ -74,7 +74,7 @@ export default function Header(): JSX.Element {
                             </li>
                         </ul> */}
                         <div className="hidden sm:flex sm:justify-end sm:self-center">
-                            <a href="/login">
+                            <a href="https://t.me/atosolutions">
                                 <button className="flex w-[150px] cursor-pointer flex-row items-center justify-evenly rounded-md border border-[#82774A] bg-[#82774A] p-2 opacity-100 transition-all ease-in-out hover:opacity-80 hover:ease-in focus:opacity-60 focus:ease-out">
                                     <Image
                                         alt="key icon"
